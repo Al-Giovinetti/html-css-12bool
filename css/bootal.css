@@ -106,7 +106,7 @@
 
 /* 5° creo colonna standard per dividere quando torna male con i 1/12 */
 
-.col-{
+.col-x{
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;

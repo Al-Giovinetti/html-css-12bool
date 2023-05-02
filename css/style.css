@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+flex{
+    display: flex;
+}
+
+section{
+    padding-bottom: 10px;
+}
+
+[class^="col-"]{
+    background-color: rgb(13, 107, 247);
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.bg-green{
+    background-color: lime;
+}
