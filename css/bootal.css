@@ -13,6 +13,11 @@
     flex-wrap: wrap;
 }
 
+/* 2.5°  */
+[class^="col-"]{
+    flex: 0 0 auto;
+}
+
 /* 3° Creo le colonne in base alle loro dimensioni ... Es: (prende 1 colonna = col-1 = 1/12) - (prende 5 colonne = col-5 = 5/12) */
 /* Max-width serve se il contenuto va oltre le dimensioni stabilite dal flex-basis */
 .col-1{
@@ -97,5 +102,13 @@
 }
 .offset-11{
     margin-left: calc((100% / 12) * 11);
+}
+
+/* 5° creo colonna standard per dividere quando torna male con i 1/12 */
+
+.col-{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
 }
 
